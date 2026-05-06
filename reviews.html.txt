@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviews | Siyam Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="Siyam-Logo-2.jpg" alt="Logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="records.html">Records</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="reviews">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="review-box">
+            <p>"Siyam Agency helped my business grow 2x in just 3 months. Highly recommended!"</p>
+            <h4>- Rahim Ahmed</h4>
+            <br>
+            <p>"I have received the service and I am satisfied"</p>
+            <h4>- Md. Sumon</h4>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2026 Siyam Agency. All rights reserved.</p></footer>
+</body>
+</html>
