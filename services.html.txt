@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Services | Siyam Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="Siyam-Logo-2.jpg" alt="Logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="records.html">Records</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card"><i class="fas fa-bullhorn"></i><h3>Targeted Ads</h3><p>High-converting Facebook and Instagram ad campaigns.</p></div>
+            <div class="service-card"><i class="fas fa-chart-line"></i><h3>Strategic Growth</h3><p>Customized marketing plans to scale your business.</p></div>
+        </div>
+
+        <h2 class="section-title" style="margin-top: 50px;">Our Expert Team</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="siyam-photo.jpg" alt="Siyam" style="width:100px; border-radius:50%;">
+                <h3>Touhidul Karim Siyam</h3>
+                <p>Digital Marketing Expert</p>
+            </div>
+            <div class="service-card">
+                <img src="shawn-photo.jpg" alt="Shawn" style="width:100px; border-radius:50%;">
+                <h3>Ahasan Hasan Shawn</h3>
+                <p>8 Years of Experience</p>
+            </div>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2026 Siyam Agency. All rights reserved.</p></footer>
+</body>
+</html>
