@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans | Siyam Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="Siyam-Logo-2.jpg" alt="Siyam Agency Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li> <li><a href="records.html">Records</a></li>
+                <li><a href="contact.html" class="btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pricing-section">
+        <h2 class="section-title">Boost Your Business Plans</h2>
+        <div class="service-grid">
+            
+            <div class="service-card">
+                <i class="fas fa-paper-plane"></i>
+                <h3>Starter Boost</h3>
+                <p style="font-size: 1.5rem; color: #e63946; font-weight: bold;">$10 / Day</p>
+                <ul style="list-style: none; padding: 1rem 0; text-align: left;">
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Targeted Audience</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Ad Setup & Optimization</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> 3 Days Support</li>
+                </ul>
+                <a href="https://wa.me/8801972965121?text=I'm interested in Starter Boost" class="btn" style="display: block; text-decoration: none;">Get Started</a>
+            </div>
+
+            <div class="service-card" style="border: 2px solid #e63946; transform: scale(1.05);">
+                <i class="fas fa-rocket"></i>
+                <h3>Business Scale</h3>
+                <p style="font-size: 1.5rem; color: #e63946; font-weight: bold;">$25 / Day</p>
+                <ul style="list-style: none; padding: 1rem 0; text-align: left;">
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Advanced Targeting</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Creative Ad Design</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Weekly Reporting</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> 7 Days Support</li>
+                </ul>
+                <a href="https://wa.me/8801972965121?text=I'm interested in Business Scale Plan" class="btn" style="display: block; text-decoration: none;">Popular Choice</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-crown"></i>
+                <h3>Enterprise</h3>
+                <p style="font-size: 1.5rem; color: #e63946; font-weight: bold;">Custom Pricing</p>
+                <ul style="list-style: none; padding: 1rem 0; text-align: left;">
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Complete Social Management</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Full ROI Analysis</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> Professional Content</li>
+                    <li><i class="fas fa-check-circle" style="color: green;"></i> 24/7 Support</li>
+                </ul>
+                <a href="https://wa.me/8801972965121?text=I want to discuss a Custom Plan" class="btn" style="display: block; text-decoration: none;">Contact Us</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Siyam Agency. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
