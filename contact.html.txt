@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Siyam Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><img src="Siyam-Logo-2.jpg" alt="Logo"></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="records.html">Records</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html" class="btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> siyamagency1@gmail.com</p>
+            <p><i class="fab fa-whatsapp"></i> +8801972965121</p>
+            <p>Expert Team. Affordable Price.</p>
+            <a href="https://wa.me/8801972965121" class="cta-btn" style="background:#25d366; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; display:inline-block; margin-top:20px;">Send a Message</a>
+        </div>
+    </section>
+
+    <footer><p>&copy; 2026 Siyam Agency. All rights reserved.</p></footer>
+</body>
+</html>
