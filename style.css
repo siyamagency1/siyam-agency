@@ -1,3 +1,4 @@
+/* ১. রিসেট এবং বেসিক স্টাইল (পুরো পেজের সাধারণ ডিজাইন) */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body {
     color: #333;
 }
 
-/* Navbar */
+/* ২. নেভিগেশন বার (মেনু বার) */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -32,9 +33,6 @@ body {
     list-style: none;
 } 
 
-
-
-
 .nav-links li a {
     text-decoration: none;
     color: #333;
@@ -49,7 +47,7 @@ body {
     padding: 0.5rem 1.5rem !important;
 }
 
-/* Hero Section */
+/* ৩. হিরো সেকশন (ব্যানার অংশ) */
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('FB-Cover.jpg');
@@ -63,6 +61,7 @@ body {
 }
 
 .hero-content h1 { font-size: 3rem; margin-bottom: 1rem; }
+
 .cta-btn {
     display: inline-block;
     background: #25d366;
@@ -74,10 +73,11 @@ body {
     font-weight: bold;
 }
 
-/* Sections */
+/* ৪. সাধারণ সেকশন স্টাইল */
 section { padding: 4rem 10%; }
 .section-title { text-align: center; margin-bottom: 3rem; font-size: 2rem; color: #1d3557; }
 
+/* ৫. সার্ভিস গ্রিড (সার্ভিসগুলোর বক্স) */
 .service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -95,79 +95,10 @@ section { padding: 4rem 10%; }
 .service-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
 .service-card i { font-size: 3rem; color: #e63946; margin-bottom: 1rem; }
 
-/* Portfolio/Records */
-.record-container {
-    display: flex;
-    justify-content: space-around;
-    background: #1d3557;
-    color: white;
-    padding: 3rem;
-    border-radius: 15px;
-    text-align: center;
-}
-
-/* Contact */
-.contact-info { text-align: center; font-size: 1.2rem; }
-footer { text-align: center; padding: 2rem; background: #333; color: white; }
-
-
-
-.team-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 20px;
-}
-
-.team-member {
-    text-align: center;
-    max-width: 300px;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 4px solid #007bff;
-}
-
-.team-member h3 {
-    margin: 10px 0 5px;
-    font-size: 20px;
-    color: #333;
-}
-
-.role {
-    color: #007bff;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.experience {
-    font-size: 14px;
-    color: #28a745;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.bio {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-}
-
-
-
+/* ৬. অ্যাবাউট আস (About Us) সেকশন */
 .about-us-section {
     padding: 60px 20px;
-    background-color: #f9f9f9; /* হালকা ব্যাকগ্রাউন্ড */
+    background-color: #f9f9f9;
     text-align: center;
 }
 
@@ -181,13 +112,12 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
     color: #333;
     margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .underline {
     width: 60px;
     height: 4px;
-    background-color: #007bff; /* আপনার ওয়েবসাইটের ব্র্যান্ড কালার এখানে দিতে পারেন */
+    background-color: #007bff;
     margin: 0 auto 30px;
     border-radius: 2px;
 }
@@ -196,82 +126,31 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
     font-size: 18px;
     line-height: 1.8;
     color: #555;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.about-text strong {
-    color: #007bff; /* গুরুত্বপূর্ণ শব্দগুলোকে হাইলাইট করতে */
+/* ৭. হোয়াই চুজ আস (Why Choose Us) গ্রিড সিস্টেম */
+.features-grid {
+    display: flex;
+    flex-direction: column; /* কার্ডগুলো ওপর-নিচে থাকবে */
+    align-items: center;    /* মাঝখানে রাখার জন্য */
+    gap: 30px;              /* কার্ডের মধ্যে দূরত্ব */
+    width: 100%;
 }
 
-
-.why-choose-us {
-    padding: 80px 20px;
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Poppins', sans-serif; /* Google font use korle valo dekhabe */
-}
-
-.main-title {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: #000;
-}
-
-.card {
-    max-width: 450px;
-    margin: 0 auto;
+/* প্রতিটি কার্ডের জন্য কমন ডিজাইন (বক্স লুক দেওয়ার জন্য) */
+.feature-card {
+    width: 100%;
+    max-width: 700px;       /* কার্ড খুব বেশি চওড়া হবে না */
     padding: 40px 30px;
-    background-color: #fff0eb; /* Image-er moto light orange/peach color */
     border-radius: 15px;
     text-align: left;
     transition: transform 0.3s ease;
+    box-sizing: border-box; /* প্যাডিং যেন বক্সের বাইরে না যায় */
 }
 
-.card:hover {
-    transform: translateY(-10px); /* Mouse nile ektu upore uthbe */
-}
-
-.icon-box img {
-    width: 80px;
-    margin-bottom: 25px;
-}
-
-.card-title {
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: #111;
-    margin-bottom: 15px;
-}
-
-.card-text {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
-}
-
-/* Mobile responsive */
-@media (max-width: 600px) {
-    .main-title { font-size: 28px; }
-    .card { padding: 25px; }
-}
-
-
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
-}
-
-
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
 
 /* প্রথম কার্ডের কালার (Peach/Light Orange) */
@@ -284,13 +163,8 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
     background-color: #f0f7ff;
 }
 
-.feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-}
-
 .feature-icon img {
-    width: 60px;
+    width: 70px;
     margin-bottom: 20px;
 }
 
@@ -307,33 +181,37 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
     color: #444;
 }
 
-/* Mobile Responsive */
+/* ৮. টিম মেম্বার সেকশন */
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+}
+
+/* ৯. ফুটার (Footer) */
+footer { text-align: center; padding: 2rem; background: #333; color: white; }
+
+/* ১০. রেসপন্সিভ (মোবাইলের জন্য) */
 @media (max-width: 768px) {
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* ২ নম্বর কার্ডের জন্য নির্দিষ্ট সিএসএস */
-.targeted-ads {
-    background-color: #f0f7ff; /* হালকা নীল ব্যাকগ্রাউন্ড */
-    padding: 30px;             /* বক্সের ভেতরের জায়গা */
-    border-radius: 15px;       /* কোনা গোল করা */
-    display: block;            /* লেখাগুলো নিচে নিচে রাখার জন্য */
-    width: 100%;               /* পুরো চওড়া হবে */
-    max-width: 700px;          /* কার্ডটি অনেক বেশি চওড়া হবে না */
-    margin: 0 auto;            /* মাঝখানে রাখার জন্য */
-    box-sizing: border-box;    /* প্যাডিং যেন বক্সের বাইরে না যায় */
-}
-
-.targeted-ads .feature-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.targeted-ads .feature-text {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #444;
+    .hero-content h1 { font-size: 2rem; }
+    .features-grid { padding: 10px; }
+    .feature-card { padding: 25px; }
 }
