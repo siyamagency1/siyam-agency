@@ -202,3 +202,57 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
 .about-text strong {
     color: #007bff; /* গুরুত্বপূর্ণ শব্দগুলোকে হাইলাইট করতে */
 }
+
+
+.why-choose-us {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Google font use korle valo dekhabe */
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.card {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-color: #fff0eb; /* Image-er moto light orange/peach color */
+    border-radius: 15px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Mouse nile ektu upore uthbe */
+}
+
+.icon-box img {
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    .main-title { font-size: 28px; }
+    .card { padding: 25px; }
+}
