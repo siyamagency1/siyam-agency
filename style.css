@@ -139,9 +139,9 @@ section { padding: 4rem 10%; }
 
 /* প্রতিটি কার্ডের জন্য কমন ডিজাইন (বক্স লুক দেওয়ার জন্য) */
 .feature-card {
-    width: 100%;
-    max-width: 200px;       /* কার্ড খুব বেশি চওড়া হবে না */
-    padding: 40px 30px;
+    width: 1500%;
+    max-width: 800px;       /* কার্ড খুব বেশি চওড়া হবে না */
+    padding: 60px 30px;
     border-radius: 15px;
     text-align: left;
     transition: transform 0.3s ease;
