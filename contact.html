@@ -2,9 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Siyam Agency</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* আলাদা সিএসএস ফাইল না থাকলেও এটি সুন্দর দেখাবে */
+        body { background-color: #f8f9fa; margin: 0; }
+        .contact-container {
+            max-width: 1100px;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 20px;
+        }
+        .contact-info-box {
+            flex: 1;
+            min-width: 300px;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .contact-form-box {
+            flex: 1.5;
+            min-width: 320px;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        .info-item i {
+            font-size: 20px;
+            color: #007bff;
+            width: 40px;
+            height: 40px;
+            background: #eef5ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        .contact-input {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            box-sizing: border-box;
+            transition: 0.3s;
+        }
+        .contact-input:focus { border-color: #007bff; box-shadow: 0 0 5px rgba(0,123,255,0.2); }
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .submit-btn:hover { background: #218838; transform: translateY(-2px); }
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,62 +100,41 @@
                 <li><a href="contact.html" class="btn">Contact Us</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>
 
-    <section id="contact" style="padding: 50px 20px; font-family: 'Arial', sans-serif;">
-    <div style="max-width: 600px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        <h2 style="text-align: center; color: #333; margin-bottom: 20px;">Contact Siyam Agency</h2>
-        
-        <form action="https://formspree.io/f/xvzlqnqr" method="POST">
+    <main class="contact-container">
+        <div class="contact-info-box">
+            <h2 style="font-size: 28px; color: #333;">Let's Talk!</h2>
+            <p style="color: #666; margin-bottom: 30px;">Expert Team. Affordable Price. আপনাদের প্রজেক্ট নিয়ে আজই আলোচনা শুরু করুন।</p>
             
-            <div style="margin-bottom: 15px;">
-                <label style="display: block; margin-bottom: 5px; color: #555;">Your Name</label>
-                <input type="text" name="name" placeholder="Enter your full name" required 
-                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <strong style="display: block;">Email Us</strong>
+                    <a href="mailto:siyamagency1@gmail.com" style="text-decoration: none; color: #555;">siyamagency1@gmail.com</a>
+                </div>
             </div>
 
-            <div style="margin-bottom: 15px;">
-                <label style="display: block; margin-bottom: 5px; color: #555;">Email Address</label>
-                <input type="email" name="_replyto" placeholder="Enter your email" required 
-                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+            <div style="margin-top: 40px;">
+                <h4 style="margin-bottom: 15px; color: #333;">Social & Support:</h4>
+                <a href="https://www.facebook.com/profile.php?id=61589471660183" target="_blank" class="social-btn" style="background: #1877F2;">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://wa.me/8801972965121" target="_blank" class="social-btn" style="background: #25d366;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
             </div>
-
-            <div style="margin-bottom: 15px;">
-                <label style="display: block; margin-bottom: 5px; color: #555;">Subject</label>
-                <input type="text" name="subject" placeholder="What is this about?" 
-                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
-            </div>
-
-            <div style="margin-bottom: 20px;">
-                <label style="display: block; margin-bottom: 5px; color: #555;">Message</label>
-                <textarea name="message" rows="5" placeholder="Write your message here..." required 
-                    style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; resize: vertical;"></textarea>
-            </div>
-
-            <button type="submit" 
-                style="width: 100%; background-color: #007bff; color: white; padding: 14px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; transition: 0.3s;">
-                Send Message
-            </button>
-            
-        </form>
         </div>
-</section>
 
-    <section class="contact">
-        <h2 class="section-title">Contact Us</h2>
-        <div class="contact-info">
-            <p><i class="fas fa-envelope"></i> siyamagency1@gmail.com
-                                                    <a href="https://www.facebook.com/profile.php?id=61589471660183" target="_blank" class="facebook-btn" style="background: #1877F2; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem;">
-                                                     <i class="fab fa-facebook"></i> Visit Facebook <br>
-            </a>
-            
-                                  </div>
+        <div class="contact-form-box">
+            <h3 style="margin-bottom: 25px; color: #333;">Send us a Message</h3>
+            <form action="https://formspree.io/f/xvzlqnqr" method="POST">
+                <input type="text" name="name" class="contact-input" placeholder="Full Name" required>
+                <input type="email" name="email" class="contact-input" placeholder="Email Address" required>
+                <input type="text" name="subject" class="contact-input" placeholder="Subject">
+                <textarea name="message" class="contact-input" rows="5" placeholder="Your Message" required style="resize: none;"></textarea>
                 
-                                             <p>Expert Team. Affordable Price.</p>
-                                          <a href="https://wa.me/8801972965121" class="cta-btn" style="background:#25d366; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; display:inline-block; margin-top:20px;">Send a Message</a>
-                                                  </div>
-    </section>
-
-    <footer><p>&copy; 2026 Siyam Agency. All rights reserved.</p></footer>
-</body>
-</html>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
