@@ -134,13 +134,13 @@ section { padding: 4rem 10%; }
     flex-direction: column; /* কার্ডগুলো ওপর-নিচে থাকবে */
     align-items: center;    /* মাঝখানে রাখার জন্য */
     gap: 30px;              /* কার্ডের মধ্যে দূরত্ব */
-    width: 60%;
+    width: 100%;
 }
 
 /* প্রতিটি কার্ডের জন্য কমন ডিজাইন (বক্স লুক দেওয়ার জন্য) */
 .feature-card {
     width: 100%;
-    max-width: 700px;       /* কার্ড খুব বেশি চওড়া হবে না */
+    max-width: 400px;       /* কার্ড খুব বেশি চওড়া হবে না */
     padding: 40px 30px;
     border-radius: 15px;
     text-align: left;
@@ -158,7 +158,6 @@ section { padding: 4rem 10%; }
     background-color: #fff0eb;
 }
 
-/* ১৬১ নম্বর লাইন থেকে ১৬৪ নম্বর লাইন পর্যন্ত এটি রিপ্লেস করুন */
 
 /* দ্বিতীয় কার্ডের কালার (Light Blue) */
 .targeted-ads {
