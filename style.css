@@ -250,3 +250,25 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
     color: #e63946;
     margin-bottom: 15px;
 }
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif; /* অথবা আপনার পছন্দের ফন্ট */
+}
+
+.stat-item h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 18px;
+    color: #666;
+    text-transform: capitalize;
+}
