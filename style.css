@@ -158,9 +158,11 @@ section { padding: 4rem 10%; }
     background-color: #fff0eb;
 }
 
-/* দ্বিতীয় কার্ডের কালার (Light Blue) */
+/* ১৬১ নম্বর লাইন থেকে ১৬৪ নম্বর লাইন পর্যন্ত এটি রিপ্লেস করুন */
+
+/* দ্বিতীয় কার্ডের কালার (Light Blue) */
 .targeted-ads {
-    background-color: #fff0eb;
+    background-color: #f0f7ff !important;
 }
 
 .feature-icon img {
