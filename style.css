@@ -49,7 +49,7 @@ body {
 
 /* ৩. হিরো সেকশন (ব্যানার অংশ) */
 .hero {
-    height: 80vh;
+    height: 110vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('FB-Cover.jpg');
     background-size: cover;
     background-position: center;
@@ -140,7 +140,7 @@ section { padding: 4rem 10%; }
 /* প্রতিটি কার্ডের জন্য কমন ডিজাইন (বক্স লুক দেওয়ার জন্য) */
 .feature-card {
     width: 100%;
-    max-width: 400px;       /* কার্ড খুব বেশি চওড়া হবে না */
+    max-width: 200px;       /* কার্ড খুব বেশি চওড়া হবে না */
     padding: 40px 30px;
     border-radius: 15px;
     text-align: left;
@@ -165,7 +165,7 @@ section { padding: 4rem 10%; }
 }
 
 .feature-icon img {
-    width: 70px;
+    width: 100px;
     margin-bottom: 20px;
 }
 
