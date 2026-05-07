@@ -30,7 +30,10 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
-}
+} 
+
+
+
 
 .nav-links li a {
     text-decoration: none;
@@ -158,4 +161,44 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
     font-size: 14px;
     color: #666;
     line-height: 1.5;
+}
+
+
+
+.about-us-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* হালকা ব্যাকগ্রাউন্ড */
+    text-align: center;
+}
+
+.about-us-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff; /* আপনার ওয়েবসাইটের ব্র্যান্ড কালার এখানে দিতে পারেন */
+    margin: 0 auto 30px;
+    border-radius: 2px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-text strong {
+    color: #007bff; /* গুরুত্বপূর্ণ শব্দগুলোকে হাইলাইট করতে */
 }
