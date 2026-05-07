@@ -313,3 +313,27 @@ footer { text-align: center; padding: 2rem; background: #333; color: white; }
         grid-template-columns: 1fr;
     }
 }
+
+/* ২ নম্বর কার্ডের জন্য নির্দিষ্ট সিএসএস */
+.targeted-ads {
+    background-color: #f0f7ff; /* হালকা নীল ব্যাকগ্রাউন্ড */
+    padding: 30px;             /* বক্সের ভেতরের জায়গা */
+    border-radius: 15px;       /* কোনা গোল করা */
+    display: block;            /* লেখাগুলো নিচে নিচে রাখার জন্য */
+    width: 100%;               /* পুরো চওড়া হবে */
+    max-width: 700px;          /* কার্ডটি অনেক বেশি চওড়া হবে না */
+    margin: 0 auto;            /* মাঝখানে রাখার জন্য */
+    box-sizing: border-box;    /* প্যাডিং যেন বক্সের বাইরে না যায় */
+}
+
+.targeted-ads .feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.targeted-ads .feature-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
